@@ -1,0 +1,19 @@
+{
+  "transport" : {
+    "service" : "gmail",
+    "user" : "user.mail@gmail.com",
+    "pass" : "password"
+  },
+  "users" : [
+    {
+      "website" : "site1.com",
+      "email" : "user1@mail.com",
+      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
+    },
+    {
+      "website" : "site2.com",
+      "email" : "user2@mail.com",
+      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
+    }
+  ]
+}
