@@ -52,8 +52,7 @@ app.post('/sendMail',function(req,res,next){
             from: req.body['email'], // Sender address
             to: user.email, // List of receivers
             subject: 'Messsage from '+req.body['firstname']+' '+req.body['lastname'], // Subject line
-            text: 'Email : '+req.body['email'], // Plain text body
-            html: '<br/>Message : <br/>'+req.body['message'], // Html body
+            html: '<br/>Contact email : <br/>'+req.body['email']+'<br/>Message : <br/>'+req.body['message'], // Html body
         };
 
         transporter.sendMail(mailOptions, function (err, responseStatus) {
