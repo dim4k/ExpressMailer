@@ -55,7 +55,7 @@ $('.submit-form').click(function(){
         });
 });
 ```
-Assuming the form got the following field :
+Assuming the form got the following fields :
 * firstname
 * lastname
 * email
