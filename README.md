@@ -55,3 +55,8 @@ $('.submit-form').click(function(){
         });
 });
 ```
+Assuming the form got the following field :
+        - firstname
+        - lastname
+        - email
+        - message
