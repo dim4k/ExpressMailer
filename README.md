@@ -35,7 +35,7 @@ node server.js
 ```
 Call to the mailer
 ----
-The server 
+Here is a simple example of ajax call to the mailer
 
 ```sh
 $('.submit-form').click(function(){
