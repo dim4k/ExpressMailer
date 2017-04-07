@@ -12,7 +12,7 @@
       "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe", //The reCaptcha server secret key
     },
     {
-      "userId" : "1",
+      "userId" : "2",
       "email" : "user2@mail.com",
       "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
     }
