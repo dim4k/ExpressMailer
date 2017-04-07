@@ -40,7 +40,7 @@ Here is a simple example of ajax call to the mailer
 ```sh
 $('.submit-form').click(function(){
         var data = $('.form').serializeArray();
-        data.push({'name':'website','value':'your.website'});
+        data.push({'name':'userId','value':'yourId'});
 
         $.ajax({
             data: data,
