@@ -27,7 +27,7 @@ app.post('/sendMail',function(req,res,next){
         return res.json({"responseCode": 2, "responseDesc": "Please send a 'userId' element"});
     } else {
         config.users.forEach(function (element, idx, array) {
-            if (req.body['userId'] === element.id) {
+            if (req.body['userId'] === element.userId) {
                 user = element;
             }
             if (idx === array.length - 1 && user == null) {
