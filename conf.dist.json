@@ -2,14 +2,14 @@
 {
   "transport" : {
     "service" : "gmail",
-    "user" : "user.mail@gmail.com", /*You can use your personal gmail address and password as transport*/
+    "user" : "user.mail@gmail.com", //You can use your personal gmail address and password as transport
     "pass" : "password"
   },
   "users" : [
     {
-      "website" : "site1.com", /*Needed to identify from where come the call*/
-      "email" : "user1@mail.com", /*Mails will be send to this address*/
-      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe", /*The reCaptcha server secret key*/
+      "website" : "site1.com", //Needed to identify from where come the call
+      "email" : "user1@mail.com", //Mails will be send to this address
+      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe", //The reCaptcha server secret key
     },
     {
       "website" : "site2.com",
