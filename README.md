@@ -33,3 +33,25 @@ At the root of your project, run :
 ```sh
 node server.js
 ```
+Call to the mailer
+----
+The server 
+
+```sh
+$('.submit-form').click(function(){
+        var data = $('.form').serializeArray();
+        data.push({'name':'website','value':'your.website'});
+
+        $.ajax({
+            data: data,
+            type: "POST",
+            url: "http://localhost:3000/sendMail",
+            success: function(data){
+                alert(data.responseDesc);
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log(xhr);
+            }
+        });
+    });
+```
