@@ -7,12 +7,12 @@
   },
   "users" : [
     {
-      "website" : "site1.com", //Needed to identify from where the call came
+      "userId" : "1", //Needed to identify from where the call came
       "email" : "user1@mail.com", //Mails will be send to this address
       "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe", //The reCaptcha server secret key
     },
     {
-      "website" : "site2.com",
+      "userId" : "1",
       "email" : "user2@mail.com",
       "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
     }

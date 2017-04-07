@@ -23,17 +23,17 @@ app.post('/sendMail',function(req,res,next){
 
     let user = null;
 
-    if (req.body['website'] === undefined) {
-        return res.json({"responseCode": 2, "responseDesc": "Please send a 'website' element"});
+    if (req.body['userId'] === undefined) {
+        return res.json({"responseCode": 2, "responseDesc": "Please send a 'userId' element"});
     } else {
         config.users.forEach(function (element, idx, array) {
-            if (req.body['website'] === element.website) {
+            if (req.body['userId'] === element.id) {
                 user = element;
             }
             if (idx === array.length - 1 && user == null) {
                 return res.json({
                     "responseCode": 3,
-                    "responseDesc": "Website '" + req.body['website'] + "' not configured"
+                    "responseDesc": "userId '" + req.body['userId'] + "' not configured"
                 });
             }
         });
