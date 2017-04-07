@@ -53,5 +53,5 @@ $('.submit-form').click(function(){
                 console.log(xhr);
             }
         });
-    });
+});
 ```
