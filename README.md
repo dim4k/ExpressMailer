@@ -24,7 +24,7 @@ npm install
 
 #### Setup the server
 
-Open {YOUR_PROJECT_DIRECTORY}/conf.json-dist, change this configuration file according to your setup and rename it to conf.json
+Open conf.json-dist, change this configuration file according to your setup and rename it to conf.json
 
 #### Run the server
 
