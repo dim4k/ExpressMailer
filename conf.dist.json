@@ -2,14 +2,14 @@
 {
   "transport" : {
     "service" : "gmail",
-    "user" : "user.mail@gmail.com", //You can use your personal gmail address and password as transport
-    "pass" : "password"
+    "user" : "user.mail@gmail.com **CHANGE TO YOUR OWN GMAIL ADRESS**",
+    "pass" : "password **GMAIL ADRESS PASSOWRD**"
   },
   "users" : [
     {
-      "userId" : "1", //Needed to identify from where the call came
-      "email" : "user1@mail.com", //Mails will be send to this address
-      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe", //The reCaptcha server secret key
+      "userId" : "1",
+      "email" : "user1@mail.com **MAILS WILL BE SEND TO THIS ADRESS**",
+      "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe **RECAPTCHA SERVER SECRET KEY**",
     },
     {
       "userId" : "2",
