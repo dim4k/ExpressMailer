@@ -1,14 +1,13 @@
-/* IMPORTANT REMOVE ALL COMMENTS AND RENAME THIS FILE TO CONF.JSON BEFORE USING IT */
 {
   "transport" : {
     "service" : "gmail",
-    "user" : "user.mail@gmail.com **CHANGE TO YOUR OWN GMAIL ADRESS**",
+    "user" : "user.mail@gmail.com **CHANGE TO YOUR OWN GMAIL ADDRESS**",
     "pass" : "password **GMAIL ADRESS PASSOWRD**"
   },
   "users" : [
     {
       "userId" : "1",
-      "email" : "user1@mail.com **MAILS WILL BE SEND TO THIS ADRESS**",
+      "email" : "user1@mail.com **MAILS WILL BE SEND TO THIS ADDRESS**",
       "recapthaSecretKey" : "6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe **RECAPTCHA SERVER SECRET KEY**",
     },
     {
