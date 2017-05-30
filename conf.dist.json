@@ -2,7 +2,7 @@
   "transport" : {
     "service" : "gmail",
     "user" : "user.mail@gmail.com **CHANGE TO YOUR OWN GMAIL ADDRESS**",
-    "pass" : "password **GMAIL ADRESS PASSOWRD**"
+    "pass" : "password **GMAIL ADRESS PASSWORD**"
   },
   "users" : [
     {
