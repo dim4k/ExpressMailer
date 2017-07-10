@@ -1,6 +1,6 @@
 ExpressMailer
 =====
-<p>Simple mailer with reCaptcha validation using ExpressJS</p>
+<p>Mailer with reCaptcha validation using ExpressJS</p>
 
 Server requirements
 ----
